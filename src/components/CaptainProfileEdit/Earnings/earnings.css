@@ -1,0 +1,95 @@
+.earnings-container {
+  width: 100%;
+  text-align: center;
+}
+
+.earnings-body {
+  padding: 54px 5%;
+}
+
+.earnings-body-amount-withdrawn {
+  width: 100%;
+  min-height: 50px;
+  background: #f6f6f6;
+  border: 1px solid #c4c4c4;
+  box-sizing: border-box;
+  padding: 15px 0;
+}
+
+.earnings-body-amount-withdrawn-flex {
+  display: flex;
+}
+
+.earnings-body-amount-withdrawn-flex-withdrawn {
+  padding: 13px 0;
+  width: 50%;
+  text-align: center;
+}
+
+.earnings-body-amount-withdrawn-flex-withdrawn-text {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 27px;
+  margin: 0;
+  color: #787878;
+}
+
+.earnings-body-amount-withdrawn-flex-withdrawn-number {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 35px;
+  line-height: 52px;
+  margin: 0;
+  color: #343434;
+}
+
+.earnings-body-withdraw-button {
+  width: 150px;
+  height: 40px;
+  margin-top: 19px;
+  background: #39a0ed;
+  border-radius: 5px;
+  float: right;
+  outline: none;
+  border: none;
+  cursor: pointer;
+  color: #ffffff;
+}
+
+.earnings-body-past-payments {
+  width: 100%;
+
+  margin-top: 110px;
+  background: #f6f6f6;
+  border: 1px solid #c4c4c4;
+  border-bottom: none;
+  box-sizing: border-box;
+  min-height: 55px;
+}
+
+.earnings-body-past-payments-header {
+  width: 100%;
+  height: 55px;
+  display: flex;
+  border-bottom: 0.7px solid #c4c4c4;
+}
+
+.earnings-body-past-payments-date {
+  height: 55px;
+  width: 25%;
+  display: table;
+  text-align: start;
+  padding-left: 43px;
+}
+
+.earnings-body-past-payments-date-text {
+  display: table-cell;
+  vertical-align: middle;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 15px;
+  line-height: 22px;
+
+  color: #787878;
+}

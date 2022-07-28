@@ -1,0 +1,261 @@
+.dashboard-container {
+  width: 100%;
+  margin-top: 27px;
+  padding: 0 5%;
+}
+
+.dashboard-orange-container {
+  width: 100%;
+  height: 114px;
+
+  background: rgba(247, 165, 59, 0.3);
+  border-radius: 5px;
+  text-align: center;
+  display: table;
+}
+
+.dashboard-orange-container-text {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 103%;
+  /* or 21px */
+  display: table-cell;
+  letter-spacing: 0.05em;
+  vertical-align: middle;
+  color: #c78e45;
+}
+
+.dashboard-ash-container-flex {
+  display: flex;
+}
+
+.dashboard-ash-container {
+  width: 100%;
+  height: 244px;
+  margin-top: 27px;
+  background: #f6f6f6;
+  border: 1px solid #c4c4c4;
+  box-sizing: border-box;
+}
+
+.dashboard-ash-flex {
+  display: flex;
+  padding: 1% 5%;
+  align-content: center;
+  height: 100%;
+}
+
+.dashboard-ash-profile-pic-flex {
+  width: 100%;
+  padding: 4% 0 4% 5%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  height: 100%;
+}
+
+.dashboard-ash-profile-pic {
+  height: 130px;
+
+  width: 130px;
+  border-radius: 50%;
+}
+
+.dashboard-ash-profile-pic-img {
+  height: 100%;
+  width: 100%;
+  border-radius: 50%;
+}
+
+.dashboard-ash-profile-sailor {
+  width: 70%;
+  text-align: start;
+  height: 100%;
+  display: table;
+  border-right: 0.7px solid #c4c4c4;
+}
+
+.dashboard-ash-profile-sailor-text {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 25px;
+  line-height: 37px;
+  letter-spacing: 0.05em;
+  margin: 0;
+  color: #343434;
+}
+
+.dashboard-ash-profile-sailor-container {
+  display: flex;
+  margin-top: 11px;
+}
+
+.dashboard-ash-profile-sailor-container-text {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0.05em;
+  margin: 0;
+  color: #787878;
+}
+
+.dashboard-ash-profile-sailor-button {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 21px;
+  display: table-row-group;
+  vertical-align: bottom;
+  color: #ffffff;
+  height: 40px;
+  width: 150px;
+  background: #39a0ed;
+  border-radius: 5px;
+  outline: none;
+  margin-top: 30px;
+  cursor: pointer;
+}
+
+.dashboard-ash-profile-sailor-member-container {
+  height: 100%;
+  padding: 5% 5%;
+  display: table;
+  width: 100%;
+}
+
+.dashboard-ash-profile-sailor-member-text-flex {
+  display: flex;
+  justify-content: space-between;
+}
+
+.dashboard-ash-profile-sailor-member-text {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 24px;
+
+  color: #343434;
+}
+
+.dashboard-ash-profile-sailor-member-text-left {
+  width: 50%;
+  text-align: start;
+}
+
+.dashboard-ash-profile-sailor-member-text-right {
+  width: 50%;
+  text-align: start;
+}
+
+.dashboard-ash-profile-sailor-body {
+  display: flex;
+  width: 100%;
+  height: 100%;
+  justify-content: space-between;
+  margin-top: 27px;
+}
+
+.dashboard-ash-profile-sailor-body-boating-experience {
+  width: 23%;
+}
+
+.dashboard-ash-profile-sailor-body-boating-experience-text {
+  display: table-cell;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 18px;
+  /* identical to box height */
+  vertical-align: middle;
+  color: #343434;
+}
+
+.dashboard-ash-profile-sailor-body-boating-about {
+  width: 48%;
+}
+
+.dashboard-ash-profile-sailor-body-boating-experience-about-text {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 21px;
+
+  color: #787878;
+}
+
+.dashboard-ash-profile-sailor-body-boating-boats {
+  width: 23%;
+  text-align: start;
+}
+
+.dashboard-ash-profile-sailor-body-boating-boats-text {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 27px;
+  margin: 0;
+  color: #343434;
+}
+
+.dashboard-ash-profile-sailor-align {
+  display: table-cell;
+
+  vertical-align: middle;
+}
+
+.dashboard-ash-profile-sailor-member-container-align {
+  display: table-cell;
+
+  vertical-align: middle;
+}
+
+@media only screen and (max-width: 910px) {
+  .dashboard-ash-profile-sailor-align {
+    padding: 0 5%;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .dashboard-ash-profile-sailor-body {
+    display: inline-block;
+  }
+
+  .dashboard-ash-profile-sailor-body-boating-experience {
+    width: 100%;
+  }
+
+  .dashboard-ash-profile-sailor-body-boating-about {
+    width: 100%;
+    margin-top: 27px;
+  }
+
+  .dashboard-ash-profile-sailor-body-boating-boats {
+    width: 100%;
+    margin-top: 27px;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .dashboard-ash-container-flex {
+    display: inline-block;
+    width: 100%;
+  }
+
+  .dashboard-ash-container {
+    width: 100% !important;
+    border: 1px solid #c4c4c4 !important;
+  }
+
+  .dashboard-ash-profile-sailor {
+    border: none;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .dashboard-ash-profile-sailor-align {
+    padding-left: 8%;
+  }
+}

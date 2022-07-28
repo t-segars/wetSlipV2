@@ -1,0 +1,119 @@
+.help-container {
+  width: 100%;
+  text-align: center;
+}
+
+.help-how-it-works {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 43px;
+  line-height: 64px;
+  margin-top: 71px !important;
+  color: #39a0ed;
+}
+
+.help-content-container {
+  width: 80%;
+  display: inline-block;
+  margin-top: 44px;
+}
+
+.help-content-header {
+  width: 100%;
+  padding: 0 20%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.help-content-header-rent-a-boat-blue {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 30px;
+  color: #39a0ed;
+  cursor: pointer;
+}
+
+.help-content-header-rent-a-boat {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 30px;
+  float: right;
+  color: #787878;
+  cursor: pointer;
+}
+
+.help-content-header-line {
+  width: 100%;
+  border: 1px solid #c4c4c4;
+}
+
+.help-content-grid {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+
+  margin-top: 67px;
+  height: 266px;
+}
+
+.help-content-boat1 {
+  width: 45%;
+  height: 266px;
+}
+
+.help-content-search-and-filter {
+  width: 45%;
+}
+
+.help-content-search-and-filter-header {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 30px;
+  line-height: 45px;
+  text-align: start;
+  color: #000000;
+}
+
+.help-content-search-and-filter-content {
+  text-align: start;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 27px;
+
+  color: #787878;
+}
+
+.help-content-more-help {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 30px;
+
+  color: #343434;
+}
+
+.help-content-more-help-contact-us {
+  color: #39a0ed;
+  cursor: pointer;
+}
+
+@media only screen and (max-width: 875px) {
+  .help-content-grid {
+    display: inline-block;
+  }
+
+  .help-content-boat1 {
+    width: 100%;
+  }
+
+  .help-content-search-and-filter {
+    width: auto;
+  }
+
+  .help-content-header {
+    padding: 0 5%;
+  }
+}

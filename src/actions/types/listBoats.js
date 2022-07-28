@@ -1,0 +1,1 @@
+const LIST_BOATS = 'LIST_BOATS';

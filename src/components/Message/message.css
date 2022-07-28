@@ -1,0 +1,232 @@
+.message-container {
+  width: 100%;
+  text-align: center;
+}
+
+.message-body {
+  padding: 28px 5%;
+  width: 100%;
+}
+
+.message-inbox-body {
+  padding: 19px 5%;
+  display: flex;
+  width: 100%;
+  align-items: center;
+  border-bottom: 1px solid #c4c4c4;
+  cursor: pointer;
+}
+
+.message-inbox-body-profile-pic {
+  padding-right: 15px;
+  width: 75px;
+}
+
+.message-inbox-body-username-container {
+  width: 30%;
+  padding-right: 4%;
+  text-align: start;
+}
+
+.message-inbox-body-username {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 27px;
+  margin: 0;
+  color: #39a0ed;
+}
+
+.message-inbox-body-message-container {
+  width: 60%;
+  height: 62px;
+  display: table;
+}
+
+.message-inbox-body-message {
+  display: table-cell;
+  vertical-align: middle;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 21px;
+  text-align: start;
+  color: #787878;
+}
+
+.conversation-body {
+  display: flex;
+  width: 100%;
+}
+
+.conversation-body-left {
+  width: 60%;
+  padding: 16px 5%;
+  text-align: start;
+  padding-right: 0px;
+}
+
+.conversation-body-right {
+  width: 40%;
+  padding: 26px 16px;
+}
+
+.conversation-body-received {
+  width: 100%;
+  background: #f6f6f6;
+  min-height: 23px;
+  padding: 10px 12px;
+  text-align: start;
+  margin-top: 20px;
+}
+
+.conversation-body-received-text {
+  font-style: normal;
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 21px;
+
+  color: #787878;
+}
+
+.conversation-body-sent {
+  width: 100%;
+  margin-top: 20px;
+  background: #ffffff;
+  border: 1px solid #c4c4c4;
+  box-sizing: border-box;
+  min-height: 23px;
+  padding: 10px 12px;
+  text-align: start;
+}
+
+.conversation-body-reply-to {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 21px;
+  margin-top: 52px;
+  color: #343434;
+}
+
+.conversation-body-reply-input {
+  border: 1px solid #c4c4c4;
+  width: 100%;
+  height: 70px;
+  outline: none;
+}
+
+.conversation-body-reply-send {
+  margin-top: 15px;
+  width: 150px;
+  height: 40px;
+  float: right;
+  background: #39a0ed;
+  border-radius: 5px;
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
+
+.conversation-fixed-messages {
+  height: 367px;
+  padding-right: 20px;
+  overflow-y: scroll;
+  overflow-x: hidden;
+}
+
+.conversation-body-trips {
+  text-align: start;
+}
+
+.conversation-body-trips-text {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 27px;
+  color: #343434;
+}
+
+.conversation-body-pic {
+}
+
+.conversation-body-name {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 27px;
+  margin-top: 15px;
+  color: #343434;
+}
+
+.conversation-body-name-location {
+  display: flex;
+  margin-top: 10px;
+  text-align: start;
+}
+
+.conversation-body-name-location-left {
+  width: 50%;
+}
+
+.conversation-body-name-location-text {
+  font-style: normal;
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 21px;
+
+  color: #343434;
+}
+
+.conversation-body-name-location-text-right {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 21px;
+
+  color: #343434;
+}
+
+.message-inbox-body-date {
+  font-style: normal;
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 21px;
+
+  color: #787878;
+}
+
+.message-inbox-body-profile-pic-size {
+  width: 60px;
+  height: 60px;
+  border-radius: 50px;
+}
+
+.page-item.active .page-link {
+  background-color: #39a0ed;
+  border-color: #39a0ed;
+}
+
+@media only screen and (max-width: 768px) {
+  .conversation-body {
+    display: inline-block;
+  }
+
+  .conversation-body-left {
+    width: 100%;
+    padding: 16px 5%;
+    text-align: center;
+  }
+
+  .conversation-body-right {
+    width: 100%;
+  }
+
+  .conversation-body-trips {
+    text-align: center;
+  }
+
+  .conversation-body-reply-send {
+    float: none;
+  }
+}

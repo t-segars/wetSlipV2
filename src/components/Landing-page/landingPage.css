@@ -1,0 +1,136 @@
+.background-pic {
+  min-width: 100%;
+  height: 701px;
+  background: linear-gradient(
+      0deg,
+      rgba(12, 87, 142, 0.3),
+      rgba(12, 87, 142, 0.3)
+    ),
+    url(images/boat.jpg);
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+}
+
+.get-your-boat-container {
+  text-align: center;
+  max-width: 1140px;
+  width: 95%;
+  height: 100%;
+  margin: 0 auto;
+  color: #fff;
+}
+
+.get-your-boat-bold-text {
+  display: inline-block;
+  margin-top: 175px !important;
+  font-weight: 600;
+  font-size: 57px;
+  line-height: 60px;
+  color: #ffffff;
+  text-shadow: 0px 3px 4px rgba(0, 0, 0, 0.3);
+}
+
+.get-your-boat-intro-text {
+  display: inline-block;
+  height: 68px;
+  top: 160px;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 27px;
+  color: #ffffff;
+}
+
+.ui.primary.button.explore-boats {
+  margin-top: 300px;
+  background-color: red;
+  text-shadow: 0px 3px 4px rgba(0, 0, 0, 0.3);
+}
+
+.ui.primary.button.explore-boats:hover {
+  background-color: #d01919;
+}
+
+.generate-income {
+  display: flex;
+  justify-content: space-around;
+  min-width: 100%;
+  height: 109px;
+  left: 0px;
+  top: 791px;
+  background: #f7f7f7;
+  padding-top: 22px;
+  padding-right: 7px;
+}
+
+.generate-income-boat {
+  text-align: center;
+  width: 200px;
+}
+
+.get-your-boat-container-text {
+  width: 75%;
+  text-align: start;
+  display: inline-block;
+}
+
+@media only screen and (max-width: 425px) {
+  .background-pic {
+    height: 550px;
+    background-size: cover;
+    background: linear-gradient(
+        0deg,
+        rgba(12, 87, 142, 0.3),
+        rgba(12, 87, 142, 0.3)
+      ),
+      url(images/Rectangle-mobile.png);
+    background-position: center center;
+    background-repeat: no-repeat;
+  }
+
+  .get-your-boat-container-text {
+    width: 100% !important;
+    text-align: center !important;
+  }
+
+  .get-your-boat-bold-text {
+    font-size: 28px;
+    margin-top: 70px !important;
+    line-height: 45px;
+  }
+
+  .get-your-boat-intro-text {
+    font-size: 15px;
+  }
+
+  .get-your-boat-container {
+    padding-right: 15px;
+    padding-left: 15px;
+  }
+
+  .ui.primary.button.explore-boats {
+    margin-top: 230px;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .get-your-boat-bold-text {
+    font-size: 30px;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .generate-income {
+    height: 135px;
+    padding-top: 10px;
+  }
+
+  .generate-income-boat {
+    width: 90px;
+  }
+
+  .aboutUs-join-us-button {
+    margin-top: 5px;
+  }
+}

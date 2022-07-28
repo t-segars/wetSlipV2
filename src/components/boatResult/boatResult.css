@@ -1,0 +1,589 @@
+.boat-result-container {
+  width: 100%;
+  text-align: center;
+}
+
+.boat-result-align {
+  width: 90%;
+  display: inline-block;
+}
+
+.boat-result-input-search-container {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  width: auto;
+}
+
+.boat-result-input-search-top-filter {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  width: 100%;
+}
+
+.boat-result-input-search-city {
+  position: relative;
+  width: 442px;
+  height: 66px;
+
+  background: #ffffff;
+  border: 1px solid #c4c4c4;
+  box-sizing: border-box;
+  border-radius: 5px;
+  outline: none;
+  margin-top: 13px;
+}
+
+.boat-result-input-search-city-label {
+  position: absolute;
+
+  left: 62px;
+  top: 6px;
+
+  font-style: normal;
+  font-weight: normal;
+  font-size: 13px;
+  line-height: 19px;
+
+  letter-spacing: 0.05em;
+
+  color: #787878;
+}
+
+.boat-result-input-search-city-input {
+  height: 26px;
+  position: absolute;
+  outline: none;
+  border: none;
+  left: 62px;
+  top: 30px;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 27px;
+  letter-spacing: 0.05em;
+  color: #343434;
+}
+
+.boat-result-input-search-city-pin {
+  position: absolute;
+  top: 21px;
+  left: 12.7px;
+}
+
+.boat-result-input-search-from {
+  position: relative;
+  width: 203px;
+  height: 66px;
+
+  background: #ffffff;
+  border: 1px solid #c4c4c4;
+  box-sizing: border-box;
+  border-radius: 5px;
+  outline: none;
+  margin-top: 13px;
+}
+
+.boat-result-input-search-from-label {
+  position: absolute;
+
+  left: 28px;
+  top: 6px;
+
+  font-style: normal;
+  font-weight: normal;
+  font-size: 13px;
+  line-height: 19px;
+
+  letter-spacing: 0.05em;
+
+  color: #787878;
+}
+
+.boat-result-input-search-from-input {
+  width: 160px;
+  height: 26px;
+  position: absolute;
+  outline: none;
+  border: none;
+  left: 28px;
+  top: 30px;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 27px;
+  letter-spacing: 0.05em;
+  color: #343434;
+}
+
+.boat-result-input-search-to {
+  position: relative;
+  width: 203px;
+  height: 66px;
+
+  background: #ffffff;
+  border: 1px solid #c4c4c4;
+  box-sizing: border-box;
+  border-radius: 5px;
+  outline: none;
+  margin-top: 13px;
+}
+
+.boat-result-input-search-to-label {
+  position: absolute;
+
+  left: 28px;
+  top: 6px;
+
+  font-style: normal;
+  font-weight: normal;
+  font-size: 13px;
+  line-height: 19px;
+
+  letter-spacing: 0.05em;
+
+  color: #787878;
+}
+
+.boat-result-input-search-to-input {
+  width: 160px;
+  height: 26px;
+  position: absolute;
+  outline: none;
+  border: none;
+  left: 28px;
+  top: 30px;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 27px;
+  letter-spacing: 0.05em;
+}
+
+.boat-result-input-search-boat-type {
+  position: relative;
+  width: 342px;
+  height: 66px;
+
+  background: #ffffff;
+  border: 1px solid #c4c4c4;
+  box-sizing: border-box;
+  border-radius: 5px;
+  outline: none;
+  margin-top: 13px;
+}
+
+.boat-result-input-search-boat-type-label {
+  position: absolute;
+
+  left: 28px;
+  top: 6px;
+
+  font-style: normal;
+  font-weight: normal;
+  font-size: 13px;
+  line-height: 19px;
+
+  letter-spacing: 0.05em;
+
+  color: #787878;
+}
+
+.boat-result-input-search-boat-type-input {
+  background: #ffffff;
+  width: 300px;
+  height: 26px;
+  position: absolute;
+  outline: none;
+  border: none;
+  left: 21px;
+  top: 30px;
+
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 27px;
+  letter-spacing: 0.05em;
+}
+
+.boat-result-input-search-boat-type-background {
+  background: url(./images/boatTypeBackground.svg);
+  min-width: 100%;
+  height: 274px;
+
+  margin-top: 30px;
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+}
+
+.boat-result-input-search-boat-type-background-text {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 50px;
+  line-height: 75px;
+  margin-top: 82px;
+  letter-spacing: 0.05em;
+
+  color: #bf8c4f;
+}
+
+.boat-result-search-result {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.boat-result-search-result-filter-align {
+  width: 90%;
+  display: inline-block;
+  margin-top: 22px;
+}
+
+.boat-result-search-result-filter {
+  width: 20%;
+  min-height: 470px;
+  margin-top: 30px;
+  background: #ffffff;
+  border: 1px solid #c4c4c4;
+  box-sizing: border-box;
+  border-radius: 5px;
+  text-align: center;
+}
+
+.boat-result-search-result-filter-mobile {
+  width: 23%;
+  height: 973px;
+  margin-top: 30px;
+  background: #ffffff;
+  border: 1px solid #c4c4c4;
+  box-sizing: border-box;
+  border-radius: 5px;
+  text-align: center;
+}
+
+.boat-result-search-result-filter-label {
+  display: flex;
+  justify-content: space-between;
+}
+
+.boat-result-search-result-filter-label-price {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 30px;
+
+  letter-spacing: 0.05em;
+
+  color: #000000;
+}
+
+.boat-result-search-result-filter-label-price-input {
+  width: 100%;
+  height: 35px;
+  background: #ffffff;
+  border: 1px solid #c4c4c4;
+  box-sizing: border-box;
+  border-radius: 5px;
+  outline: none;
+}
+
+.boat-result-search-result-boat-list {
+  width: 79%;
+  position: relative;
+  display: flex;
+  justify-content: space-evenly;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.boat-result-search-result-boat-list-card {
+  cursor: pointer;
+  width: 321px;
+  height: 311px;
+  background: #ffffff;
+  border: 1px solid #e5e5e5;
+  box-sizing: border-box;
+  border-radius: 5px;
+  position: relative;
+  margin-top: 30px;
+}
+
+.boat-result-search-result-boat-list-card-pic {
+  width: 321px;
+  height: 213px;
+}
+
+.boat-result-search-result-boat-list-card-price {
+  top: 179px;
+  left: 20px;
+  position: absolute;
+  color: #ffffff;
+}
+
+.boat-result-search-result-boat-list-card-price p {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 15px;
+  line-height: 37px;
+  color: #ffffff;
+  margin-right: 5px;
+}
+
+.boat-result-search-result-boat-list-card-price-tag {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 25px;
+  line-height: 37px;
+  color: #ffffff;
+  margin-right: 5px;
+}
+
+.boat-result-search-live-chat {
+  width: 100%;
+  height: 79px;
+  margin-top: 30px;
+}
+
+.boat-result-search-live-chat-align {
+  float: right;
+  width: 210px;
+  height: 79px;
+
+  background: #ffffff;
+  box-shadow: -4px 4px 10px rgba(0, 0, 0, 0.1);
+  border-radius: 30px 0px 0px 30px;
+}
+
+.boat-result-input-filter-toggle {
+  display: inline-block;
+  height: 66px;
+  width: 100%;
+  background: #ffffff;
+  border: 1px solid #c4c4c4;
+  box-sizing: border-box;
+  border-radius: 5px;
+  outline: none;
+  margin-top: 13px;
+}
+
+.boat-result-input-filter-toggle-button {
+  height: 66px;
+  width: 100%;
+  box-sizing: border-box;
+  border-radius: 5px;
+  background: #ffffff;
+  outline: none;
+  cursor: pointer;
+  color: #39a0ed;
+
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 27px;
+  letter-spacing: 0.05em;
+}
+
+.boat-result-input-filter-page-container {
+  width: 100%;
+  text-align: center;
+}
+
+.boat-result-input-filter-page-align {
+  display: inline-table;
+  text-align: center;
+  transition: width 2s, height 2s, transform 2s;
+}
+
+.boat-result-search-result-filter-mobile {
+  transition: width 2s, height 2s, transform 2s;
+}
+
+.boat-result-pagination-container {
+  margin-top: 25px;
+  width: 100%;
+  height: 49px;
+  text-align: center;
+}
+
+.boat-result-pagination-align {
+  display: inline-block;
+  width: 45%;
+}
+
+.boat-result-pagination-page-number {
+  width: 50px;
+  height: 50px;
+  display: flex;
+  margin-right: 10px;
+  align-items: center;
+  justify-content: center;
+  background: #ffffff;
+  border: 1px solid #c4c4c4;
+  box-sizing: border-box;
+  border-radius: 5px;
+}
+
+.boat-result-pagination-page-number.blue {
+  width: 50px;
+  height: 50px;
+  display: flex;
+  margin-right: 10px;
+  align-items: center;
+  justify-content: center;
+  background: #39a0ed;
+  border: none;
+  box-sizing: border-box;
+  border-radius: 5px;
+}
+
+.boat-result-input-search-city {
+  position: relative;
+}
+
+.react-calender {
+  position: absolute;
+  width: 300px;
+  top: 80px;
+  z-index: 10;
+}
+
+.react-calender.toggle-off {
+  display: none;
+}
+
+@media only screen and (max-width: 1200px) {
+  .boat-result-input-search-city {
+    width: 300px;
+  }
+
+  .boat-result-input-search-from {
+    width: 150px;
+  }
+
+  .boat-result-input-search-to {
+    width: 150px;
+  }
+
+  .boat-result-input-search-boat-type {
+    width: 240px;
+  }
+
+  .boat-result-input-search-city-input {
+    width: 210px;
+  }
+
+  .boat-result-input-search-from-input {
+    width: 110px;
+  }
+
+  .boat-result-input-search-to-input {
+    width: 110px;
+  }
+
+  .boat-result-input-search-boat-type-input {
+    width: 200px;
+  }
+}
+
+@media only screen and (max-width: 934px) {
+  .boat-result-input-search-container {
+    justify-content: space-around;
+  }
+
+  .boat-result-input-search-city {
+    width: 240px;
+  }
+
+  .boat-result-input-search-from {
+    width: 240px;
+  }
+
+  .boat-result-input-search-to {
+    width: 240px;
+  }
+
+  .boat-result-input-search-boat-type {
+    width: 240px;
+  }
+
+  .boat-result-input-search-city-input {
+    width: 170px;
+  }
+
+  .boat-result-input-search-from-input {
+    width: 200px;
+  }
+
+  .boat-result-input-search-to-input {
+    width: 200px;
+  }
+
+  .boat-result-input-search-boat-type-input {
+    width: 200px;
+  }
+}
+
+@media only screen and (max-width: 938px) {
+  .boat-result-search-result-filter {
+    display: none;
+  }
+  .boat-result-search-result-boat-list {
+    width: 100%;
+    justify-content: space-evenly;
+  }
+}
+
+@media only screen and (min-width: 938px) {
+  .boat-result-input-filter-toggle {
+    display: none;
+  }
+  .boat-result-search-result-filter-mobile {
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .boat-result-pagination-align {
+    width: 100%;
+  }
+}
+
+@media only screen and (max-width: 533px) {
+  .boat-result-input-search-city {
+    width: 100%;
+  }
+
+  .boat-result-input-search-from {
+    width: 100%;
+  }
+
+  .boat-result-input-search-to {
+    width: 100%;
+  }
+
+  .boat-result-input-search-boat-type {
+    width: 100%;
+  }
+
+  .boat-result-input-search-city-input {
+    width: 70%;
+  }
+
+  .boat-result-input-search-from-input {
+    width: 70%;
+  }
+
+  .boat-result-input-search-to-input {
+    width: 70%;
+  }
+
+  .boat-result-input-search-boat-type-input {
+    width: 70%;
+  }
+
+  .boat-result-input-search-boat-type-background-text {
+    margin-top: 95px;
+  }
+}

@@ -1,0 +1,405 @@
+.captain-profile-edit-container {
+  width: 100%;
+  text-align: center;
+}
+
+.profileNav-container {
+  width: 100%;
+  text-align: center;
+  height: 49px;
+  background: #3f3f3f;
+}
+
+.profileNav-align {
+  width: 70%;
+  display: inline-block;
+  height: 49px;
+}
+
+.profileNav-bar-flex {
+  display: table;
+
+  justify-content: space-between;
+  width: 100%;
+  height: 100%;
+}
+
+.profileNav-bar-dashboard {
+  display: table-cell;
+  width: 16.67%;
+  height: 100%;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 21px;
+  cursor: pointer;
+  vertical-align: middle;
+  color: #ffffff !important;
+}
+
+.profileNav-bar-dashboard-ash {
+  display: table-cell;
+  width: 16.67%;
+  height: 100%;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 21px;
+  cursor: pointer;
+  vertical-align: middle;
+  color: #ffffff;
+  background: #676767;
+}
+
+.profileNav-bar-dashboard:hover {
+  background: #676767;
+}
+
+.personal-profile-flex {
+  width: 100%;
+  margin-top: 27px;
+  padding: 0 5%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.personal-profile-left {
+  width: 20%;
+  text-align: start;
+}
+
+.personal-profile-right {
+  width: 70%;
+}
+
+.personal-profile-right-container {
+  min-height: 500px;
+
+  background: #ffffff;
+  border: 1px solid #c4c4c4;
+  box-sizing: border-box;
+  border-radius: 5px;
+}
+
+.personal-profile-text {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 27px;
+
+  color: #343434;
+}
+
+.personal-profile-line {
+  width: 100%;
+  border: 1px solid #c4c4c4;
+}
+
+.personal-profile-sub-text {
+  font-style: normal;
+  font-weight: 200;
+  font-size: 18px;
+  line-height: 27px;
+  margin-top: 15px !important;
+  color: #343434;
+  cursor: pointer;
+}
+
+.personal-profile-sub-text-blue {
+  font-style: normal;
+  font-weight: 200;
+  font-size: 18px;
+  line-height: 27px;
+  margin-top: 15px !important;
+  color: #39a0ed;
+  cursor: pointer;
+}
+
+.personal-information-header {
+  width: 100%;
+  height: 51px;
+  background: #f6f6f6;
+  box-sizing: border-box;
+  border-radius: 5px 5px 0px 0px;
+  padding: 0 4%;
+  display: table;
+  text-align: start;
+}
+
+.personal-information-header-text {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 27px;
+  display: table-cell;
+  vertical-align: middle;
+  color: #343434;
+}
+
+.personal-information-body {
+  padding: 4%;
+}
+
+.personal-information-name {
+  display: flex;
+  width: 70%;
+  justify-content: space-between;
+}
+
+.personal-information-name-firstname {
+  width: 100%;
+  height: 35px;
+  padding: 0 15px;
+  background: #ffffff;
+  border: 1px solid #c4c4c4;
+  box-sizing: border-box;
+  border-radius: 5px;
+  margin-top: 10px;
+  outline: none;
+}
+
+.personal-information-name-firstname-label {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 21px;
+
+  color: #000000;
+}
+
+.personal-information-dob {
+  margin-top: 28px;
+  display: flex;
+  width: 50%;
+  justify-content: space-between;
+}
+
+.personal-information-name-firstname-input {
+  width: 100%;
+  height: 35px;
+  background: #ffffff;
+  border: 1px solid #c4c4c4;
+  box-sizing: border-box;
+  border-radius: 5px;
+  margin-top: 10px;
+  padding: 0 15px;
+  outline: none;
+}
+
+.personal-information-phone-number {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+}
+
+.form-control {
+  width: 100% !important;
+  height: auto !important;
+}
+
+.react-tel-input {
+  margin-top: 1px;
+}
+
+.personal-information-button {
+  width: 150px;
+  height: 40px;
+  margin-top: 28px;
+  border: none;
+  background: #39a0ed;
+  border-radius: 5px;
+  outline: none;
+  cursor: pointer;
+}
+
+.personal-information-phone-number-container {
+  text-align: start;
+  margin-top: 28px;
+}
+
+.personal-information-firstname-container {
+  text-align: start;
+  margin-top: 28px;
+}
+
+.personal-information-firstname-container {
+  margin-top: 0;
+}
+
+.personal-information-body-pic {
+  position: relative;
+  width: 240px;
+  height: 281px;
+  display: table;
+  background: #ffffff;
+  border: 1px solid #c4c4c4;
+  box-sizing: border-box;
+}
+
+.addaboat-separator-line-align-boat-upload-icon-resize {
+  width: 100%;
+  height: 281px;
+}
+
+.boating-qualification-captain-license {
+  width: 60%;
+  height: 53px;
+  background: #d4efec;
+  border-radius: 5px;
+  box-shadow: 0px 5px 15px rgba(212, 239, 236, 0.5);
+  display: table;
+}
+
+.boating-qualification-captain-license-text {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 13px;
+  line-height: 19px;
+  display: table-cell;
+  vertical-align: middle;
+  color: #6a9d97;
+}
+
+.boating-qualification-captain-flex {
+  margin-top: 28px;
+  width: 35%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.boating-qualification-captain {
+  width: 45%;
+  height: 128px;
+  display: table;
+  text-align: center;
+  background: #f6f6f6;
+  border: 1px solid #c4c4c4;
+  box-sizing: border-box;
+  border-radius: 5px;
+  padding: 15px 5px;
+  cursor: pointer;
+}
+
+.boating-qualification-captain-image {
+  filter: invert(47%) sepia(94%) saturate(0%) hue-rotate(222deg) brightness(82%)
+    contrast(85%);
+  transform: matrix(-1, 0, 0, 1, 0, 0);
+}
+
+.boating-qualification-captain-image-text {
+  display: table-row-group;
+  vertical-align: bottom;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 13px;
+  line-height: 19px;
+  color: #787878;
+}
+
+.boating-qualification-captain-blue {
+  width: 45%;
+  height: 128px;
+  display: table;
+  text-align: center;
+  background: #f6f6f6;
+  border: none;
+  box-sizing: border-box;
+  border-radius: 5px;
+  padding: 15px 5px;
+  cursor: pointer;
+  background: #39a0ed;
+  box-shadow: 0px 5px 15px rgba(57, 160, 237, 0.5);
+}
+
+.boating-qualification-captain-image-blue {
+  filter: brightness(0) invert(1);
+}
+
+.boating-qualification-captain-image-text-white {
+  display: table-row-group;
+  vertical-align: bottom;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 13px;
+  line-height: 19px;
+  color: #ffffff;
+}
+
+.boat-experience-boat-driven-text {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 24px;
+  margin: 0;
+  color: #000000;
+}
+
+.boat-experience-boat-driven-checkbox {
+  margin-top: 16px;
+}
+
+.personal-information-body-pic {
+  background: #f6f6f6;
+}
+
+@media only screen and (max-width: 1080px) {
+  .boating-qualification-captain-flex {
+    width: 60%;
+  }
+  .personal-information-phone-number {
+    display: inline-block;
+  }
+  .personal-information-phone-number-container {
+    width: 100% !important;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .profileNav-container {
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 637px) {
+  .boating-qualification-captain-flex {
+    width: 100%;
+  }
+  .boating-qualification-captain-license {
+    width: 100% !important;
+  }
+  .personal-profile-flex {
+    display: inline-block;
+  }
+
+  .personal-profile-left {
+    width: 100%;
+  }
+
+  .personal-profile-right {
+    margin-top: 25px;
+    width: 100%;
+  }
+  .personal-information-dob {
+    display: inline-block;
+    width: 100%;
+    margin-top: 0;
+  }
+  .personal-information-name {
+    display: inline-block;
+    width: 100%;
+  }
+
+  .personal-information-firstname-container {
+    width: 100% !important;
+    margin-top: 28px;
+  }
+
+  .personal-information-firstname-container-text {
+    width: 100% !important;
+    margin-top: 0;
+  }
+
+  .personal-information-body-pic {
+    width: 100%;
+  }
+}

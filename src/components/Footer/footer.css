@@ -1,0 +1,72 @@
+.footer-container {
+  margin-top: 53px;
+  height: 354px;
+  min-width: 100%;
+  background: url(./images/footerBackground.png);
+  background-blend-mode: multiply, normal;
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  text-align: center;
+}
+
+.footer-container-align {
+  width: 90%;
+  display: inline-block;
+}
+
+.footer-content {
+  width: auto;
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer-content-hireaboat-icon {
+  margin-top: 57px;
+  width: 185px;
+  height: 59.59px;
+  text-align: start;
+}
+
+.footer-h4-text-style {
+  display: inline;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 19px;
+  line-height: 103%;
+  letter-spacing: 0.05em;
+  margin-bottom: 22px;
+  color: #ffffff;
+}
+
+.footer-p-text-style {
+  display: inline;
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 103%;
+  /* or 14px */
+  letter-spacing: 0.05em;
+  color: #ffffff;
+}
+
+@media only screen and (max-width: 768px) {
+  .footer-content {
+    display: block;
+  }
+
+  .footer-content-hireaboat-icon.company {
+    margin-top: 175px;
+  }
+
+  .footer-container {
+    height: 750px;
+  }
+
+  .footer-content-hireaboat-icon.discover {
+    margin-top: 95px;
+  }
+
+  .footer-content-hireaboat-icon.join-us {
+    margin-top: 95px;
+  }
+}

@@ -1,0 +1,501 @@
+.addaboat-container {
+  text-align: center;
+}
+
+.addaboat-align {
+  width: 100%;
+  text-align: center;
+}
+
+.addaboat-sailor {
+  width: 90%;
+  height: 188px;
+  margin-top: 12px;
+  background: #ffc107;
+  box-shadow: 2px 8px 10px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+  display: inline-block;
+}
+
+.addaboat-sailor-align {
+  display: flex;
+  justify-content: space-between;
+  height: auto;
+  width: auto;
+  text-align: center;
+}
+
+.addaboat-sailor-align-text {
+}
+
+.addaboat-sailor-align h1 {
+  margin-top: 45px;
+  position: absolute;
+  margin-left: 64px;
+  height: 67px;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 30px;
+  line-height: 45px;
+
+  color: #ffffff;
+}
+
+.addaboat-sailor-align p {
+  position: absolute;
+  margin-top: 103px;
+  margin-left: 64px;
+  height: 29px;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 27px;
+  color: #ffffff;
+}
+
+.addaboat-sailor-boat-image {
+  position: absolute;
+  margin-top: 41px;
+  margin-right: 90px;
+  width: 323px;
+  height: 106px;
+  right: 0;
+}
+
+.addaboat-sailor-design {
+  background: url(./images/design.svg);
+  width: 100%;
+  height: 188px;
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  border-radius: 10px;
+}
+
+.addaboat-yourboat-text {
+  display: inline;
+  vertical-align: top;
+}
+
+.addaboat-yourboat {
+  float: left;
+  color: #343434;
+  font-weight: 500;
+  font-size: 30px;
+  margin-top: 17px;
+  text-align: justify;
+}
+
+.addaboat-boattype {
+  color: #343434;
+  font-weight: normal;
+  display: block;
+  font-size: 14px;
+  margin-left: 2px;
+}
+
+.addaboat-select-boattype-container {
+  margin-left: 150px;
+  margin-right: 150px;
+  margin-top: 80px;
+}
+
+.addaboat-select-boattype-container-align {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.addaboat-select-boattype-box {
+  position: relative;
+  margin-top: 20px;
+  padding-bottom: 15px;
+  width: 130px;
+  height: 130px;
+  background: #ffffff;
+  border: 1px solid #c4c4c4;
+  box-sizing: border-box;
+  border-radius: 5px;
+}
+
+.blue-background {
+  background: #39a0ed;
+  box-shadow: 0px 5px 15px rgba(120, 120, 120, 0.5);
+  border-radius: 5px;
+}
+
+.dark-icon {
+  margin-top: 40.32px;
+  filter: invert(45%) sepia(45%) saturate(5%) hue-rotate(8deg) brightness(96%)
+    contrast(99%);
+}
+
+.white-icon {
+  margin-top: 40.32px;
+  -webkit-filter: opacity(0.2);
+  filter: brightness(0) invert(1);
+}
+
+.white-text {
+  width: 100%;
+  text-align: center;
+  bottom: 15px;
+  position: absolute;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 13px;
+  line-height: 19px;
+  color: #ffffff;
+}
+
+.dark-text {
+  width: 100%;
+  text-align: center;
+  bottom: 15px;
+  position: absolute;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 13px;
+  line-height: 19px;
+
+  color: #787878;
+}
+
+.addaboat-select-boattype-box img {
+  color: #787878;
+}
+
+.addaboat-boat-manufacturer-container {
+  width: 70%;
+  margin-left: 80px;
+  margin-top: 15px;
+  display: flex;
+}
+
+.add-boat-manufacturer {
+  height: 41px;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 15px;
+  line-height: 30px;
+  display: flex;
+
+  color: #787878;
+}
+
+.addaboat-input-align {
+  width: 315px;
+  height: 38px;
+  padding: 0 15px;
+  background: #ffffff;
+  border: 1px solid #c4c4c4;
+  box-sizing: border-box;
+  border-radius: 5px;
+}
+
+.input-manufacturer {
+  width: 100%;
+  background: #ffffff;
+  color: #787878;
+  border-style: none;
+  outline: none;
+  margin-top: 8px;
+}
+
+.currency {
+  width: 183px;
+}
+
+.currency-input {
+  background: #ffffff;
+  color: #787878;
+  width: 100%;
+  border-style: none;
+  outline: none;
+  margin-top: 8px;
+}
+
+.daily-booking-price {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 15px;
+  line-height: 22px;
+  display: flex;
+  align-items: flex-end;
+  letter-spacing: 0.05em;
+
+  color: #787878;
+}
+
+.addaboat-separator-line {
+  width: 100%;
+  text-align: center;
+}
+
+.addaboat-separator-line-align {
+  width: 90%;
+  display: inline-block;
+  border: 1px solid #c4c4c4;
+}
+
+.addaboat-boat-size {
+  float: left;
+  color: #343434;
+  font-weight: 500;
+  font-size: 30px;
+  margin-top: 17px;
+  text-align: justify;
+}
+
+.addaboat-separator-line.boat-photo {
+  width: 100%;
+  display: flex;
+}
+
+.addaboat-separator-line-align-boat-upload-container {
+  display: flex;
+  text-align: center;
+}
+
+.addaboat-separator-line-align-boat-upload {
+  width: 280px;
+  height: 220px;
+  background: #ffffff;
+  border: 1px solid #c4c4c4;
+  box-sizing: border-box;
+  border-radius: 5px;
+  margin-right: 13px;
+}
+
+.addaboat-separator-line-align-boat-upload-preview {
+  box-sizing: border-box;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.addaboat-separator-line-align-boat-upload-button {
+  display: none;
+}
+
+.addaboat-separator-line-align-boat-upload-icon {
+  filter: invert(45%) sepia(45%) saturate(5%) hue-rotate(8deg) brightness(96%)
+    contrast(99%);
+  width: 50px;
+  height: 50px;
+  cursor: pointer;
+  margin-top: 61px;
+}
+
+.addaboat-save-button {
+  width: 171px;
+  height: 50px;
+  background: #39a0ed;
+  border-radius: 5px;
+  margin-top: 57px;
+  outline: none;
+  cursor: pointer;
+}
+
+@media only screen and (max-width: 1170px) {
+  .addaboat-sailor-boat-image {
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 1199px) {
+  .addaboat-select-boattype-box img {
+    margin-top: 20px;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+  }
+
+  .addaboat-select-boattype-container-align {
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+  }
+}
+
+@media only screen and (max-width: 1000px) {
+  .addaboat-select-boattype-container-align {
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+  }
+}
+
+@media only screen and (max-width: 935px) {
+  .addaboat-separator-line.boat-size {
+    display: flex;
+    justify-content: center;
+  }
+
+  .addaboat-separator-line-align.boat-size {
+    display: flex;
+    flex-wrap: wrap;
+  }
+}
+
+@media only screen and (max-width: 868px) {
+  .addaboat-boat-manufacturer-container-align {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+  }
+
+  .addaboat-boat-manufacturer-container {
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+    margin-left: 0px;
+  }
+  .add-boat-manufacturer {
+    width: auto;
+  }
+}
+
+@media only screen and (max-width: 791px) {
+  .addaboat-sailor-align {
+    justify-content: center;
+  }
+
+  .addaboat-sailor-align h1 {
+    padding-top: 30px;
+    margin: 0 auto;
+    padding-right: 20px;
+    padding-left: 20px;
+    font-size: 22px;
+    line-height: 27px;
+  }
+
+  .addaboat-sailor-align p {
+    padding-top: 90px;
+    margin: 0 auto;
+    padding-right: 20px;
+    padding-left: 20px;
+  }
+}
+
+@media only screen and (max-width: 740px) {
+  .addaboat-input-align {
+    width: 250px;
+  }
+
+  .currency {
+    width: 183px;
+  }
+}
+
+@media only screen and (max-width: 670px) {
+  .add-boat-manufacturer {
+    width: 250px !important;
+    height: 41px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 30px;
+    display: flex;
+
+    color: #787878;
+  }
+}
+
+@media only screen and (max-width: 585px) {
+  .addaboat-select-boattype-container {
+    margin-right: 10px;
+    margin-left: 10px;
+  }
+}
+
+@media only screen and (max-width: 582px) {
+  .addaboat-boat-manufacturer-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .add-boat-manufacturer-resize {
+    width: 250px;
+  }
+
+  .addaboat-boat-manufacturer-container.price {
+    justify-content: center !important;
+  }
+
+  .currency {
+    width: 250px;
+  }
+
+  .add-boat-manufacturer-price {
+    width: 100% !important;
+  }
+}
+
+@media only screen and (max-width: 556px) {
+  .addaboat-separator-line-align-boat-upload {
+    width: 100%;
+    margin-right: 0;
+  }
+
+  .add-boat-cabins-container {
+    width: 100%;
+  }
+  .addaboat-input-align {
+    width: 100% !important;
+  }
+
+  .addaboat-separator-line.boat-size {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+  }
+
+  .addaboat-boat-manufacturer-align {
+    width: 100%;
+  }
+
+  .addaboat-input-align {
+    width: 100%;
+  }
+
+  .addaboat-separator-line-align.boat-size {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center !important;
+  }
+
+  .add-boat-manufacturer {
+    width: 198px !important;
+  }
+
+  .add-boat-manufacturer.boat-description {
+    width: 250px !important;
+  }
+
+  .input-manufacturer.boat-description {
+    width: 90% !important;
+  }
+}
+
+@media only screen and (max-width: 450px) {
+  .addaboat-separator-line-align {
+    text-align: center;
+  }
+
+  .addaboat-separator-line-align-boat-upload-container {
+    display: inline-block !important;
+    margin-top: 5px;
+    width: 100%;
+  }
+
+  .addaboat-separator-line-align-boat-upload {
+    margin-right: 0px;
+  }
+
+  .addaboat-separator-line-align-boat-upload-preview-image {
+    margin-right: 0px !important;
+  }
+
+  .addaboat-save-button-container {
+    text-align: center !important;
+  }
+}
