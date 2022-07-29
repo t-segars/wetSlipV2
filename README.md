@@ -1,68 +1,29 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+wetSlip-
+Language used- Javascript
+Frameworks- React.js,Node.js, Firestorm
+Database- FireBase
+API: PayPall, Google Auth, Google Maps
+Tools- Trello, Notion,
 
-## Available Scripts
 
-In the project directory, you can run:
 
-### `npm start`
+wetSlip is a MERN_stack booking app that allows owners of boats to host them for users to rent. This can be done by location, type of vessel, with or without a captain, and date.  
+ 
+ Utilizing paypal the renter my pay the owner of the boat and will get notification of payment./
 
-Runs the app in the development mode.<br />
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+User Story:
+Host:
 
-The page will reload if you make edits.<br />
-You will also see any lint errors in the console.
+As a host, the host will be able to register, login and create a card that displays their boats with the following search parameters: Price, Dates available, marina location, vessel length, number of cabins, number of bathrooms, max number of people allowed on board, and with or without a captain.
 
-### `npm test`
 
-Launches the test runner in the interactive watch mode.<br />
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+A host will be able to upload photos (max and min numbers not yet determined), a description, price and receive messages from users..
+User:
 
-### `npm run build`
 
-Builds the app for production to the `build` folder.<br />
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Goal:
 
-The build is minified and the filenames include the hashes.<br />
-Your app is ready to be deployed!
+My goal utilize sockets.io to create a messaging feature between host and captain.
+MVP:
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
-
-### Analyzing the Bundle Size
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
-
-### Making a Progressive Web App
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
-
-### Advanced Configuration
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
-
-### Deployment
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
-
-### `npm run build` fails to minify
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
+Application the allows host to host their dock, and a captain to reserve it by date, with an automatic confirmation send to both host and captain.

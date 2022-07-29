@@ -1,7 +1,7 @@
 .ui.fullscreen.small.image {
   left: 50px;
   top: 14px;
-  width: 100%;
+  width: 90%;
 }
 
 a.ui.hamburger.small.image {
@@ -12,7 +12,7 @@ a.ui.hamburger.small.image {
 
 img.logo {
   cursor: pointer;
-  width:125px;
+  width:155px;
 }
 
 div.hamburger.right.menu {
@@ -33,7 +33,7 @@ img.cancel {
 
 div.ui.large.menu {
   height: 90px;
-  background-color: #f9f9f9;
+  background-color: #ffffff;
   margin-right: 5px;
 }
 

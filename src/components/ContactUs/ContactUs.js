@@ -136,15 +136,15 @@ class ContactUs extends React.Component {
                 className="contactUs-content-location-address"
                 style={{ marginTop: '20px' }}
               >
-                Hireaboat Inc
+                 wetSlip
               </p>
               <p className="contactUs-content-location-address">
-                10 Bailey Street, Abule Ijesha
+                14050 Canal A Way
               </p>
               <p className="contactUs-content-location-address">
-                Yaba, Lagos State
+                Pensacola, Florida 32502
               </p>
-              <p className="contactUs-content-location-address">Nigeria.</p>
+              <p className="contactUs-content-location-address">USA</p>
               <div className="contactUs-content-location-line"></div>
               <div className="contactUs-content-location-email">
                 <img
@@ -152,13 +152,13 @@ class ContactUs extends React.Component {
                   alt="mail icon"
                   style={{ marginRight: '27px' }}
                 />
-                <p className="contactUs-content-location-header-text">Email</p>
+                <p className="contactUs-content-location-header-text">Website</p>
               </div>
               <p
                 className="contactUs-content-location-address"
                 style={{ marginTop: '12px' }}
               >
-                <a href="mailto:contact@hireaboat.co">contact@hireaboat.co</a>
+                <a href="http://www.tgsegars.com">TgSegars.com</a>
               </p>
               <div className="contactUs-content-location-line"></div>
               <div className="contactUs-content-location-email">
@@ -175,21 +175,13 @@ class ContactUs extends React.Component {
                 className="contactUs-content-location-address"
                 style={{ marginTop: '12px' }}
               >
-                +2348130411590
+                1.850.823.1125
               </p>
               <div className="contactUs-content-location-line"></div>
-              <div className="contactUs-content-location-email">
-                <img
-                  src={Vector4}
-                  alt="mail icon"
-                  style={{ marginRight: '27px' }}
-                />
-                <p className="contactUs-content-location-header-text">
-                  Social Media
-                </p>
-              </div>
+             
 
-              <div className="contactUs-content-location-line"></div>
+              <div className="contactUs-content-location-line">
+              </div>
             </div>
           </div>
         </div>
